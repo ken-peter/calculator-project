@@ -1,11 +1,40 @@
-var add = function(number1, number2,number3,number4) {
-  return number1 + number2 -number3*number4;
+var add = function(number1, number2) {
+  return number1 + number2;
 };
 
 var number1 = parseInt(prompt("Enter a number:"));
 var number2 = parseInt(prompt("Enter another number:"));
-var number3 = parseInt(prompt("Enter another number:"));
-var number4 = parseInt(prompt("Enter another number:"));
+
+var result=(add(number1, number2));
+alert(result);
+
+var subtract = function(number1, number2) {
+  return number1 - number2;
+};
+
+var number1 = parseInt(prompt("Enter a number:"));
+var number2 = parseInt(prompt("Enter another number:"));
+
+var result=(subtract(number1, number2));
+alert(result);
 
 
-alert(add(number1, number2, number3, number4));
+var divide= function(number1, number2) {
+  return number1 / number2;
+};
+
+var number1 = parseInt(prompt("Enter a number:"));
+var number2 = parseInt(prompt("Enter another number:"));
+
+var result=(divide(number1, number2));
+alert(result);
+
+var multiply = function(number1, number2) {
+  return number1 * number2;
+};
+
+var number1 = parseInt(prompt("Enter a number:"));
+var number2 = parseInt(prompt("Enter another number:"));
+
+var result=(multipy(number1, number2));
+alert(result);
