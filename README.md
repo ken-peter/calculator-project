@@ -17,3 +17,4 @@ The project is a simple calculator that performs the basic arithmetics which are
 -CSS
 -JavaScript
 -jquery
+-bootstrap
